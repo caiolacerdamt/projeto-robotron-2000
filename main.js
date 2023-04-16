@@ -59,3 +59,29 @@ function atualizaEstatisticas(peca) {
         
     })
 }
+
+const cores = document.querySelectorAll('[data-color]')
+
+cores.forEach((elemento) => {
+    elemento.addEventListener('click', (evento) => {
+        mudarDeCor(evento.target.dataset.color)
+    })
+})
+
+function mudarDeCor(cores) {
+    const trocaImg = document.querySelector('#robotron')
+    trocaImg.src = 'img/robotron_' + cores + '.png'
+}
+/*
+const cor = document.querySelectorAll("[data-color]");
+
+cor.forEach((elemento) => {
+    elemento.addEventListener("click", (evento) => {
+        mudarCorRobotron(evento.target.dataset.color)
+    });
+});
+
+function mudarCorRobotron(cor) {
+    const imgRobotron = document.querySelector("#robotron")
+    imgRobotron.src = "./img/robotron_" + cor + ".png";
+} */
