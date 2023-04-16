@@ -1,7 +1,7 @@
-<h1 align="center"> Projeto ROBOTRON 2000 | Alura </h1>
+<h1 align="center"> 🚧 Projeto ROBOTRON 2000 🚧 | Alura </h1>
 
 <div>
-  <h2>Sobre</h2>
+  <h2>❗ Sobre</h2>
   <p> Esse projeto foi feito com o curso de JavaScript do Alura, no intuito de aprender aplicações web com o JavaScript.</p><br>
   <p>É apenas um dos projetos desse curso, que ainda está em andamento.</p><br>
   <p>Por meio do que aprendi, consegui fazer os botões que mudam a cor do ROBOTRON.</p><br>
